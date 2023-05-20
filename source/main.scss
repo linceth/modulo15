@@ -1,6 +1,8 @@
+@use '../source/config/cores.scss';
 @use '../source/config/reset';
 @use '../source/secoes/produto';
-@use '../source/config/cores';
+
+
 
 body {
     background-color: #f5f6fa;
@@ -38,7 +40,7 @@ header {
         margin-left: 24px;
 
         a {
-            color: cores.$corPrincipal;
+            color: cores.$cor-principal;
             text-decoration: none;
         }
     }  

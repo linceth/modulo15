@@ -1,4 +1,4 @@
-@use '../config/cores';
+@use '../config/cores.scss';
 
 .products {
     margin-top: 40px;
@@ -19,7 +19,7 @@
 .product-button {
     display: block;
     background-color: #44bd32;
-    color: cores.$corPrincipal;
+    color: cores.$cor-principal;
     text-align: center;
     padding: 8px 0;
     border-radius: 8px;
